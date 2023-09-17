@@ -92,7 +92,7 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
                 salary_estimate = np.NAN #You need to set a "not found value. It's important."
             
             try:
-                rating = driver.find_element(By.XPATH,'.//span[@class="job-search-rnnx2x"]').text
+                rating = driver.find_element(By.XPATH,'.//span[@data-test="detailRating"]').text
             except NoSuchElementException:
                 rating = np.NAN #You need to set a "not found value. It's important."
 

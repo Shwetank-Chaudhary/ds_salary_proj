@@ -1,5 +1,86 @@
 ,Job Title,Salary Estimate,Job Description,Rating,Company Name,Location,Headquarters,Size,Founded,Type of ownership,Industry,Sector,Revenue,Competitors
-0,2024 University Graduate - Data Scientist,Employer Provided Salary:$83K - $153K,"Our Company
+0,Data Scientist,$88K - $133K (Glassdoor est.),"Spalding Consulting, Inc. is seeking a Data Scientist at MCAS Cherry Point at Havelock, NC. Spalding Consulting, Inc. is a professional services company delivering cutting-edge solutions to the Department of Defense since 2001. Our expert-level solutions include software development, information technology, program management, financial management and business intelligence services. Spalding Consulting offers competitive compensation, career development, flexible work schedules and excellent benefits.
+
+Position Type: Full-Time
+
+Come join our team as we support Naval Aviation at Marine Corps Air Station Cherry Point. If you seek a dynamic work environment that challenges you to learn and grow in data analysis, visualization, AI and ML, we have the opportunity for you.
+
+
+
+
+
+
+Must be eligible to obtain a Secret clearance. Requirements to obtain a clearance include US Citizenship, security investigation, etc.
+
+
+BS or BA degree in Engineering, Computer Science, Information Systems, Business, Mathematics, Statistics or Relevant Technical Discipline. Preferred. Additional years of experience may replace degree requirements.
+
+Spalding Consulting, Inc. is committed to providing equal employment opportunities to all applicants and employees. We will not discriminate against any employee or applicant on the basis of race, color, ethnic origin, national origin, creed, religion, political belief, sex (including pregnancy), sexual orientation, gender identity, marital status, age, military status, physical or mental disability, or any other legally protected basis, in accordance with applicable federal, state or local laws. Spalding Consulting, Inc. is an Affirmative Action/Equal Opportunity Employer and encourages minorities, women, disabled, and veterans to apply for job openings within our company.",4.0,"Spalding Consulting, Inc.
+4.0","Havelock, NC",,201 to 500 Employees,2001,Company - Private,Aerospace & Defense,Aerospace & Defense,$25 to $100 million (USD),
+1,Data Scientist,,"Job Overview
+A Data Scientist at ExploreLearning helps millions of children learn math and science by participating in the creation, improvement, and analysis of our award-winning, game-based, adaptive education products. You will take a dynamic role in establishing the pedagogical AI underlying our games, allowing them to produce individualized experiences for learners. Our ideal candidate will have a background in learning analytics and machine learning, and a passion for helping children learn math and science.
+Job Responsibilities
+o Use, maintain and develop our in-house AI system to sculpt the behavior of games so they properly adapt to individual learners while ensuring that activity-specific pedagogical requirements are achieved
+o Evaluate user-generated logs to develop insights into the experiences of users
+o Distill and present these findings, along with recommendations for improvement, to designers and other stakeholders",4.3,"Cambium Learning Group
+4.3",Remote,,1001 to 5000 Employees,2004,Company - Private,Primary & Secondary Schools,Education,$500 million to $1 billion (USD),
+2,"Data Scientist (Omics data analysis (genetics, genomics and proteomics))",Employer Provided Salary:$51.00 - $52.00 Per Hour,"Job Description:
+Responsibilities:
+Project involves developing multi-omics directed graph networks based on causal inference framework based on multiple data types (e.g., clinical, RNA-seq, epigenetic, proteomic, and/or genetic data).
+Skills:
+Must be expert in at least one area of causal inference such as interpretable machine learning or data fusion problem, e.g., to reduce space of plausible causal relationships and how data from multiple sources can be combined to make causal inferences.
+Experience with machine learning in the context of causal inference, so that the predictive models are more than just a black box, is strongly desired.",3.7,"Tellus Solutions
+3.7",Remote,,51 to 200 Employees,2006,Company - Private,Information Technology Support Services,Information Technology,$5 to $25 million (USD),
+3,Machine Learning Data Scientist TS/SCI with Poly $100K- $200k + 15% 401k,Employer Provided Salary:$100K - $200K,"Title: Machine Learning Data Scientist (TS/SCI with Poly)
+Location: McLean, VA
+Base Salary: $100,000.00 - $200,000.00 per year
+15% Employer 401k contribution (Regardless of Employee Contribution)
+PTO: 30 days annual total
+Stock Option
+$3000 annual training budget
+Medical/Dental/Vision: company funded, cash incentives if you waive
+Flexible work schedule
+Referral bonuses
+Paid Paternal and Maternal Leave",5.0,"Millennial Software
+5.0","McLean, VA",,1 to 50 Employees,2019,Company - Private,Aerospace & Defense,Aerospace & Defense,Unknown / Non-Applicable,
+4,Genomics Data Scientist (Crop Science - Vegetable R&D),Employer Provided Salary:$103K - $140K,"At Bayer we’re visionaries, driven to solve the world’s toughest challenges and striving for a world where 'Health for all Hunger for none’ is no longer a dream, but a real possibility. We’re doing it with energy, curiosity and sheer dedication, always learning from unique perspectives of those around us, expanding our thinking, growing our capabilities and redefining ‘impossible’. There are so many reasons to join us. If you’re hungry to build a varied and meaningful career in a community of brilliant and diverse minds to make a real difference, there’s only one choice.
+
+Genomics Data Scientist (Crop Science - Vegetable R&D)",3.9,"Bayer
+3.9","Chesterfield, MO",,10000+ Employees,1863,Company - Public,Biotech & Pharmaceuticals,Pharmaceutical & Biotechnology,$10+ billion (USD),
+5,Data Scientist,Employer Provided Salary:$43K - $88K,"Data Scientist
+Overview
+At the heart of QIAGEN’s business is a vision to make improvements in life possible.
+We are on an exciting mission to make a real difference in science and healthcare. We are still the entrepreneurial company we started out as and have today achieved a size where we can bring our full power to many initiatives and to our presence across the globe.
+Our most valuable asset are our employees – more than 6000 in over 35 locations around the world. Our ambition is to ensure we have outstanding and passionate people working in the best teams and we are constantly looking for new talent to join us.
+There are few players who have shaped the world of modern science and healthcare as much as QIAGEN, and we have only just started.
+If you are looking to advance your career, are seeking new challenges and opportunities, enjoy working in dynamic and international, diverse teams and want to make a real impact on people’s lives, then QIAGEN is where you need to be.",3.7,"QIAGEN
+3.7","Ann Arbor, MI",,1001 to 5000 Employees,1984,Company - Public,Biotech & Pharmaceuticals,Pharmaceutical & Biotechnology,$1 to $5 billion (USD),
+6,Environmental Data Scientist I,Employer Provided Salary:$75K - $80K,"Battelle delivers when others can’t. We conduct research and development, manage national laboratories, design and manufacture products and deliver critical services for our clients—whether they are a multi-national corporation, a small start-up or a government agency.
+
+We recognize and appreciate the value and contributions of individuals with diverse backgrounds and experiences and welcome all qualified individuals to apply.
+
+Company Overview
+
+Battelle manages and operates the National Ecological Observatory Network (NEON) program, which is solely funded by the National Science Foundation. A 30+ year project dedicated to understanding how changes in climate, land use and invasive species impact ecology, the observatory’s scientists and engineers are collecting a comprehensive range of ecological data on a continental scale across 20 eco-climatic domains representing US ecosystems. Our teams use cutting-edge technology, including an airborne observation platform that captures images of regional landscapes and vegetation; mobile, relocatable, and fixed data collection sites with automated ground sensors to monitor soil and atmosphere; and trained field crews who observe and sample populations of diverse organisms and collect soil and water data. Once structures are completed, a leading-edge cyberinfrastructure will calibrate, store and publish this information. The Observatory includes more than 500+ personnel and is the first of its kind designed to detect and enable forecasting of ecological change at continental scales.",3.9,"Battelle
+3.9","Boulder, CO",,1001 to 5000 Employees,1929,Nonprofit Organization,Research & Development,Management & Consulting,$5 to $10 billion (USD),
+7,Data Scientist,,"Data Scientist
+- (3258897)
+
+As a not-for-profit organization, Mass General Brigham is committed to supporting patient care, research, teaching, and service to the community by leading innovation across our system. Founded by Brigham and Women’s Hospital and Massachusetts General Hospital, Mass General Brigham supports a complete continuum of care including community and specialty hospitals, a managed care organization, a physician network, community health centers, home care, and other health-related entities. Several of our hospitals are teaching affiliates of Harvard Medical School, and our system is a national leader in biomedical research.",3.8,"Mass General Brigham
+3.8","Somerville, MA",,1001 to 5000 Employees,1994,Nonprofit Organization,Health Care Services & Hospitals,Healthcare,$10+ billion (USD),
+8,Junior Data Scientist,Employer Provided Salary:$60K - $64K,"Background:
+DonorSearch is the leading provider of prospect research solutions and AI-powered technologies, serving over 6,800 nonprofit organizations across the US. We are family-owned, headquartered in Maryland, and have a rapidly-growing remote workforce in every U.S. timezone. With our outstanding reputation and team of innovative professionals, we seek someone to join us to expand our brand and make a lasting impact on the world.
+At DonorSearch, we value: Innovation, Excellence, Growth, Collaboration, and Quality.
+Job Summary:
+DonorSearch Ai introduced deep learning and machine learning into the nonprofit sector by building custom models with a robust interactive visualization tool to help organizations fundraise more efficiently. The Data Scientist will use best-in-class machine learning technologies to develop machine learning algorithms to meet various objectives of fundraising staff.",3.8,"DonorSearch
+3.8",Remote,,1 to 50 Employees,,Company - Public,Accounting & Tax,Financial Services,Unknown / Non-Applicable,
+9,Data Scientist I - FP&A and StressTesting,,"Why USAA?
+At USAA, we have an important mission: facilitating the financial security of millions of U.S. military members and their families. Not all of our employees served in our nation’s military, but we all share in the mission to give back to those who did. We’re working as one to build a great experience and make a real impact for our members.
+
+We believe in our core values of honesty, integrity, loyalty and service. They’re what guides everything we do – from how we treat our members to how we treat each other. Come be a part of what makes us so special!
+The Opportunity",3.4,"USAA
+3.4","San Antonio, TX",,10000+ Employees,1922,Company - Private,Insurance Carriers,Insurance,$25 to $100 million (USD),
+10,2024 University Graduate - Data Scientist,Employer Provided Salary:$83K - $153K,"Our Company
 
 Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.
 
@@ -33,9 +114,9 @@ Adobe is proud to be an Equal Employment Opportunity and affirmative action empl
 
 Adobe aims to make Adobe.com accessible to any and all users. If you have a disability or special need that requires accommodation to navigate our website or complete the application process, email accommodations@adobe.com or call (408) 536-3015.
 
-Adobe values a free and open marketplace for all employees and has policies in place to ensure that we do not enter into illegal agreements with other companies to not recruit or hire each other’s employees.",4.4 ★,"Adobe
+Adobe values a free and open marketplace for all employees and has policies in place to ensure that we do not enter into illegal agreements with other companies to not recruit or hire each other’s employees.",4.4,"Adobe
 4.4","San Jose, CA",,10000+ Employees,1982,Company - Public,Computer Hardware Development,Information Technology,$5 to $10 billion (USD),
-1,Data Scientist – Entry Level 2024,Employer Provided Salary:$71K - $133K,"Introduction
+11,Data Scientist – Entry Level 2024,Employer Provided Salary:$71K - $133K,"Introduction
 Ranked by Forbes as one of the world’s best employers in 2022, IBM promotes growth and innovation to lead as we enter the era of hybrid cloud and AI – helping clients transform their business.
 
 As a Data Scientist, you will be a member of a technical sales agile team to co-develop innovative business solutions with our clients. You will be directly collaborating and impacting the world’s most influential enterprises and brands on the
@@ -50,136 +131,90 @@ In this role, you’ll be the go-to subject matter expert, collaborating with co
 
 A 'Day-in-the Life' of a Data Scientist may include, but not be limited to:
 To be successful in this role, you will need:
-Opportunities are available in: Atlanta GA, Boston MA, Chicago IL, Dallas TX, New York NY, San Francisco CA, and Washington DC – to name a few.",4.4 ★,"IBM
+Opportunities are available in: Atlanta GA, Boston MA, Chicago IL, Dallas TX, New York NY, San Francisco CA, and Washington DC – to name a few.",3.9,"IBM
 3.9","Atlanta, GA",,10000+ Employees,1911,Company - Public,Information Technology Support Services,Information Technology,$10+ billion (USD),
-2,Data Scientist,,"Job Overview
-A Data Scientist at ExploreLearning helps millions of children learn math and science by participating in the creation, improvement, and analysis of our award-winning, game-based, adaptive education products. You will take a dynamic role in establishing the pedagogical AI underlying our games, allowing them to produce individualized experiences for learners. Our ideal candidate will have a background in learning analytics and machine learning, and a passion for helping children learn math and science.
-Job Responsibilities
-o Use, maintain and develop our in-house AI system to sculpt the behavior of games so they properly adapt to individual learners while ensuring that activity-specific pedagogical requirements are achieved
-o Evaluate user-generated logs to develop insights into the experiences of users
-o Distill and present these findings, along with recommendations for improvement, to designers and other stakeholders",4.4 ★,"Cambium Learning Group
-4.3",Remote,,1001 to 5000 Employees,2004,Company - Private,Primary & Secondary Schools,Education,$500 million to $1 billion (USD),
-3,data scientist - multiple openings,,"Now Brewing – Data Scientist! #tobeapartner
-From the beginning, Starbucks set out to be a different kind of company. One that not only celebrated coffee and the rich tradition, but that also brought a feeling of connection. We are known for developing extraordinary leaders who share this passion and are guided by their service to others.
-As a Data Scientist on the Data, Analytics, Insights, and Business Operations team, you will work cross-functionally with data engineers, data scientists, business experts, and external vendors to help Starbucks make decisions better by using data and analytics. You will use your experience with forecasting, automating ETL processes, and designing and building analytical models using structured or unstructured data. You will work directly with business partners and technology teams from problem identification to solution. You will quickly become an expert in one of our key business and data domains (Supply Chain, People Analytics, Marketing, or Store) and work cross functionally in an analytics center of excellence to improve existing processes or analytical approaches",4.4 ★,"Starbucks
-3.7",United States,,10000+ Employees,1971,Company - Public,Restaurants & Cafes,Restaurants & Food Service,$10+ billion (USD),
-4,Data Scientist Level III,Employer Provided Salary:$100K,"Role: Data Scientist Level III
-Client: HHS (Department of Health & Human Services)
-Type: Permanent
-Duration: Remote
-Responsibilities / Functional Description:
-Able to do what Data Analysts can do as well as conduct more advanced analyses, e.g., predictive models, quasi-causal analyses, qualitative analyses, and advanced machine learning methods.
-Able to develop and deliver data capacity building content for internal non-technical audiences, including 1:1 mentorship and formal trainings, written references. Fluent in at least SQL and R or Python.",4.4 ★,"Arch Systems, LLC",Remote,,,,,,,,
-5,Environmental Data Scientist I,Employer Provided Salary:$75K - $80K,"Battelle delivers when others can’t. We conduct research and development, manage national laboratories, design and manufacture products and deliver critical services for our clients—whether they are a multi-national corporation, a small start-up or a government agency.
+12,Data Scientist – Entry Level 2024,Employer Provided Salary:$71K - $133K,"Introduction
+Ranked by Forbes as one of the world’s best employers in 2022, IBM promotes growth and innovation to lead as we enter the era of hybrid cloud and AI – helping clients transform their business.
 
-We recognize and appreciate the value and contributions of individuals with diverse backgrounds and experiences and welcome all qualified individuals to apply.
+As a Data Scientist, you will be a member of a technical sales agile team to co-develop innovative business solutions with our clients. You will be directly collaborating and impacting the world’s most influential enterprises and brands on the
+adoption of next-generation platforms.
 
-Company Overview
+IBM’s comprehensive onboarding program and industry-leading learning culture will prepare you with a strong foundation for client success. Our sales environment is collaborative and experiential.
 
-Battelle manages and operates the National Ecological Observatory Network (NEON) program, which is solely funded by the National Science Foundation. A 30+ year project dedicated to understanding how changes in climate, land use and invasive species impact ecology, the observatory’s scientists and engineers are collecting a comprehensive range of ecological data on a continental scale across 20 eco-climatic domains representing US ecosystems. Our teams use cutting-edge technology, including an airborne observation platform that captures images of regional landscapes and vegetation; mobile, relocatable, and fixed data collection sites with automated ground sensors to monitor soil and atmosphere; and trained field crews who observe and sample populations of diverse organisms and collect soil and water data. Once structures are completed, a leading-edge cyberinfrastructure will calibrate, store and publish this information. The Observatory includes more than 500+ personnel and is the first of its kind designed to detect and enable forecasting of ecological change at continental scales.",4.4 ★,"Battelle
-3.9","Boulder, CO",,1001 to 5000 Employees,1929,Nonprofit Organization,Research & Development,Management & Consulting,$5 to $10 billion (USD),
-6,Data Scientist,Employer Provided Salary:$82K - $164K,"Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic medicines. Our 115,000 colleagues serve people in more than 160 countries.
-About Abbott
-At Abbott, we believe people with diabetes should have the freedom to enjoy active lives. That’s why we’re focused on helping people with diabetes manage their health more effectively and comfortably, with life-changing products that provide accurate data to drive better-informed decisions. We’re revolutionizing the way people monitor their glucose levels with our new sensing technology.
-What You’ll Do:",4.4 ★,"Abbott Laboratories
-3.8","Alameda, CA",,10000+ Employees,1888,Company - Public,Health Care Services & Hospitals,Healthcare,$10+ billion (USD),
-7,Data Scientist,Employer Provided Salary:$60K - $140K,"We are looking for junior, mid-level or senior-level data scientists with the following:
-Demonstrated software development experience with Python in a Unix environment.
-Practical knowledge in Python Machine Learning and Data Visualization
-Practical knowledge in Data ETL such as working with: Data loading from SQL, CSV, JSON, Excel, etc., Web scraping (Beautiful Soup, Scrapy, etc.) and Data Wrangling/Cleaning
-Experience using the Unix command line.
-Proficiency in statistical packages using any of the following: Python, R, STATA, SPSS, etc.
-You’re Required To Have This
-Looking for junior, mid and senior-level data scientists",4.4 ★,Tech brothers infoservices,Remote,,Unknown,,Company - Public,,,Unknown / Non-Applicable,
-8,Junior Data Scientist,Employer Provided Salary:$60K - $64K,"Background:
-DonorSearch is the leading provider of prospect research solutions and AI-powered technologies, serving over 6,800 nonprofit organizations across the US. We are family-owned, headquartered in Maryland, and have a rapidly-growing remote workforce in every U.S. timezone. With our outstanding reputation and team of innovative professionals, we seek someone to join us to expand our brand and make a lasting impact on the world.
-At DonorSearch, we value: Innovation, Excellence, Growth, Collaboration, and Quality.
-Job Summary:
-DonorSearch Ai introduced deep learning and machine learning into the nonprofit sector by building custom models with a robust interactive visualization tool to help organizations fundraise more efficiently. The Data Scientist will use best-in-class machine learning technologies to develop machine learning algorithms to meet various objectives of fundraising staff.",4.4 ★,"DonorSearch
-3.8",Remote,,1 to 50 Employees,,Company - Public,Accounting & Tax,Financial Services,Unknown / Non-Applicable,
-9,"Data Scientist, Analytics",Employer Provided Salary:$150K - $175K,"About Us:
-At Parafin, our mission is to grow small businesses. Small businesses are the backbone of our economy, yet banks do not have their back. Parafin is a technology company that builds infrastructure which enables small businesses to get easy access to financial services via platforms they sell on.
-
-Parafin's first product offers capital-as-a-service for online platforms. Parafin currently powers the capital programs of platforms ranging from Series B to post-IPO companies such as DoorDash, Amazon, and Worldpay. We are a tight-knit team of engineers and designers, coming from organizations such as Stripe, Square, Plaid, Coinbase, Robinhood, Affirm, Uber, and CERN, and are excited both about helping hundreds of thousands of small businesses grow and thrive, and building products that leaders at top companies have started to use every day.
-
-We are backed by prominent venture capitalists such as Ribbit Capital, Thrive Capital, GIC, Index Ventures, Green Oaks Capital, and SV Angel.",4.4 ★,"Parafin
-4.7","San Francisco, CA",,51 to 200 Employees,2020,Company - Private,Financial Transaction Processing,Financial Services,Unknown / Non-Applicable,
-10,Data Scientist,,"Bamboo Health is a leader in cloud-based care coordination software and analytics solutions focused on patients with complex needs, including those suffering from physical health and mental health issues and substance use disorders. We are driven by our mission of enabling better care for patients across the continuum. Our software solutions help healthcare professionals collaborate on shared patients across the spectrum of care. Join us in improving healthcare for all!
-Summary:
-The Data Scientist will live and breathe data and be excited about building user-facing data products. They will work with the Product Development team, Health Data Science team, other internal stakeholders, and external stakeholders to develop data-driven solutions powered by our unique data pipeline. The Data Scientist will excel at creative problem solving, cross-team collaboration, and thinking independently about how to utilize data to address the challenges our customers face.",4.4 ★,"Bamboo Health
-3.4",Remote,,201 to 500 Employees,1994,Company - Private,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,
-11,"Data Scientist (Omics data analysis (genetics, genomics and proteomics))",Employer Provided Salary:$51.00 - $52.00 Per Hour,"Job Description:
-Responsibilities:
-Project involves developing multi-omics directed graph networks based on causal inference framework based on multiple data types (e.g., clinical, RNA-seq, epigenetic, proteomic, and/or genetic data).
-Skills:
-Must be expert in at least one area of causal inference such as interpretable machine learning or data fusion problem, e.g., to reduce space of plausible causal relationships and how data from multiple sources can be combined to make causal inferences.
-Experience with machine learning in the context of causal inference, so that the predictive models are more than just a black box, is strongly desired.",4.4 ★,"Tellus Solutions
-3.7",Remote,,51 to 200 Employees,2006,Company - Private,Information Technology Support Services,Information Technology,$5 to $25 million (USD),
-12,Data Scientist,$89K - $123K (Glassdoor est.),"Who May Apply
-
-Job Opening: 46673. Job Posting Title: Data Scientist Open to ALL U.S. Citizens. Are you interested in a career supporting investigative and intelligence operations at America’s premier national security and law enforcement agency? Do you have experience or the desire to provide program support in the areas of data research and analysis? As a Data Scientist you will serve as a business innovator and provide support to law enforcement, national security and administrative functions across the FBI. Data Scientists will use scientific and mathematical processes to convert large datasets into more efficient databases for business needs.
-All current U.S. citizens may apply. This posting will close on 11/30/2023 at 11:59 PM EST. Questions regarding this opening should be directed to at 202-324-7155 or rlwhite@fbi.gov. This posting will be used to fill multiple vacancies in the Washington, D.C. area as well as Clarksburg, WV, as well as Huntsville, AL. Will vary depending on Division needs. Will vary depending on Division needs. $58,465.00 - $76,000.00. $70,075.00 - $91,101.00. $83,328.00 - $108,324.00. $98,468.00 - $128,008.00. GS-14.",4.4 ★,"Federal Bureau of Investigation
-4.1","Washington, DC",,10000+ Employees,1908,Government,National Agencies,Government & Public Administration,Unknown / Non-Applicable,
-13,"Data Scientist (Omics data analysis (genetics, genomics and proteomics))",Employer Provided Salary:$51.00 - $52.00 Per Hour,"Job Description:
-Responsibilities:
-Project involves developing multi-omics directed graph networks based on causal inference framework based on multiple data types (e.g., clinical, RNA-seq, epigenetic, proteomic, and/or genetic data).
-Skills:
-Must be expert in at least one area of causal inference such as interpretable machine learning or data fusion problem, e.g., to reduce space of plausible causal relationships and how data from multiple sources can be combined to make causal inferences.
-Experience with machine learning in the context of causal inference, so that the predictive models are more than just a black box, is strongly desired.",4.4 ★,"Tellus Solutions
-3.7",Remote,,51 to 200 Employees,2006,Company - Private,Information Technology Support Services,Information Technology,$5 to $25 million (USD),
-14,Bioinformatics Data Scientist,Employer Provided Salary:$80K - $125K,"Posting Information
-Department
-Renaissance Computing Inst-637100
-
-Career Area
-Information Technology
-
-Posting Open Date
-09/14/2023
-
-Application Deadline
-09/28/2023",4.4 ★,"University of North Carolina at Chapel Hill
-4.0","Chapel Hill, NC",,1 to 50 Employees,,College / University,Colleges & Universities,Education,$1 to $5 million (USD),
-15,Entry Level - Associate Data Scientist - Commercial,Employer Provided Salary:$93.00 - $121.00 Per Hour,"Introduction
-As a Associate Data Scientist at IBM, you will help transform our clients’ data into tangible business value by analyzing information, communicating outcomes and collaborating on product development. Work with Best in Class open source and visual tools, along with the most flexible and scalable deployment options. Whether it’s investigating patient trends or weather patterns, you will work to solve real world problems for the industries transforming how we live.
-
-Your Role and Responsibilities
-You uncover the stories hidden in data and find patterns in the numbers. As an Associate Data Scientist, you’ll put this skill to work to solve business problems by preparing, analyzing, and understanding data to deliver insight, predict emerging trends, and provide recommendations for better outcomes. You’ll use a variety of data (structured, unstructured, IoT streaming), analytics, AI tools, and programming languages often using a cloud infrastructure to handle the volume and veracity of data streams.
-
-Armed with data, modeling expertise, and analytic results, as an Associate Data Scientist, you’ll formulate conclusions and recommendations to stakeholders in an organization's leadership structure, leveraging strong consulting, communication, visualization, and storytelling skills.
+You'll be surrounded by bright minds and keen co-creators ready to assist as you apply practices that will compel our clients to invest in IBM's products and services.
 
 
+In this role, you’ll be the go-to subject matter expert, collaborating with colleagues from various roles to define solutions and lead the way in how they get built in the age of cloud and AI. This role is hands-on; co-creating using data science, machine learning and programming skills in six-week client engagements.
 
-We have a number of positions open in these locations:
-
-
-
-
-Willingness to travel up to 100%.",4.4 ★,"IBM
+A 'Day-in-the Life' of a Data Scientist may include, but not be limited to:
+To be successful in this role, you will need:
+Opportunities are available in: Atlanta GA, Boston MA, Chicago IL, Dallas TX, New York NY, San Francisco CA, and Washington DC – to name a few.",3.9,"IBM
 3.9","Atlanta, GA",,10000+ Employees,1911,Company - Public,Information Technology Support Services,Information Technology,$10+ billion (USD),
-16,Data Scientist,$89K - $123K (Glassdoor est.),"Who May Apply
+13,Grace Hopper 2023: Data Scientist,$82K - $123K (Glassdoor est.),"Our Opportunity:
+Chewy is looking for Data Scientists to join our Data Science team in Plantation, FL, Boston, MA and Minneapolis, MN. The teams use analytical and statistical techniques to understand and serve the needs of our business processes. Developing data-driven solutions, we are looking for data scientists who are committed to solving business problems using cutting edge technologies and developing data-driven marketing solutions.
+As part of the data science team at Chewy, you will have the opportunity to provide structure to business problems for new and existing Chewy customers by applying data science principles to design, test, implement, and develop data-based solutions, including reporting, auditing, and preparing large databases for statistical analysis.",3.5,"Chewy
+3.5","Plantation, FL",,10000+ Employees,2011,Company - Public,Pet & Pet Supplies Stores,Retail & Wholesale,$5 to $25 million (USD),
+14,Data Scientist( Local to dallas TX only),Employer Provided Salary:$70.00 Per Hour,"Position – Data Scientist
+Location – Onsite(Dallas, TX)
+Duration – Long term Contract
+Must Have:-
+Pin Machine learning -AZ-ML, Python core, Pyspark
+Job Description:
+Experience in Machine Learning, supervised and unsupervised: - Forecasting,
+Classification, Regression, Text Mining, NLP, Decision Trees, Adaptive Decision Algorithms,
+Random Forest, Search Algorithms, Gradient algorithms etc",4.8,"Swanktek
+4.8","Dallas, TX",,1 to 50 Employees,,Company - Private,Information Technology Support Services,Information Technology,$1 to $5 million (USD),
+15,USA-Data Scientist II (Clinical),Employer Provided Salary:$50.00 - $65.00 Per Hour,"Data Scientist II (Clinical)
+Waltham, MA
+12 Months contract
+Pay Range: $50-65/hr on w2
 
-Job Opening: 46673. Job Posting Title: Data Scientist Open to ALL U.S. Citizens. Are you interested in a career supporting investigative and intelligence operations at America’s premier national security and law enforcement agency? Do you have experience or the desire to provide program support in the areas of data research and analysis? As a Data Scientist you will serve as a business innovator and provide support to law enforcement, national security and administrative functions across the FBI. Data Scientists will use scientific and mathematical processes to convert large datasets into more efficient databases for business needs.
-All current U.S. citizens may apply. This posting will close on 11/30/2023 at 11:59 PM EST. Questions regarding this opening should be directed to at 202-324-7155 or rlwhite@fbi.gov. This posting will be used to fill multiple vacancies in the Washington, D.C. area as well as Clarksburg, WV, as well as Huntsville, AL. Will vary depending on Division needs. Will vary depending on Division needs. $58,465.00 - $76,000.00. $70,075.00 - $91,101.00. $83,328.00 - $108,324.00. $98,468.00 - $128,008.00. GS-14.",4.4 ★,"Federal Bureau of Investigation
-4.1","Washington, DC",,10000+ Employees,1908,Government,National Agencies,Government & Public Administration,Unknown / Non-Applicable,
-17,"Data Scientist (L5), Member Product",,"Los Gatos, California
-Data Science and Engineering
-At Netflix, we seek to entertain the world. We have more than 200 million members in 190 countries, reflecting that great stories can come from anywhere and be loved everywhere. Within Product, we have a very high velocity in innovations in the member experience. We never stop challenging ourselves and are constantly thinking about connecting with our members in new ways or even in new domains!
+General:
+"" Implementation of data analysis and process workflows across Waltham R&B
+"" Transversal collaborative work with mRNA center of Excellence community and collaborators to achieve objectives.
+"" Key user of the electronic laboratory notebook (Benching) to support the team and development of a user-friendly benching process for work and data collection
+"" Traceability of samples, reagents, and their storage for the HT platform pipeline
+"" Implementation of Sample\Reagent barcode solution in the electronic laboratory notebook (Benchling)
+"" Provide solutions to for data visualization to track experimental results and stock of critical reagents
 
-Member Product DSE is at the forefront of these innovations with a mission to relentlessly improve Netflix member experience within our streaming and new verticals services across TV, Mobile & Web by surfacing insights. The team collaborates extensively with Product and Engineering teams to identify, incubate and enable product innovations leveraging robust measurement techniques (analytics, experimentation, modeling) and scalable tooling.",4.4 ★,"Netflix
-4.2","Los Gatos, CA",,5001 to 10000 Employees,1997,Company - Public,Internet & Web Services,Information Technology,$5 to $10 billion (USD),
-18,"Data Scientist (L5), Member Product",,"Los Gatos, California
-Data Science and Engineering
-At Netflix, we seek to entertain the world. We have more than 200 million members in 190 countries, reflecting that great stories can come from anywhere and be loved everywhere. Within Product, we have a very high velocity in innovations in the member experience. We never stop challenging ourselves and are constantly thinking about connecting with our members in new ways or even in new domains!
+Tasks requiring Skilled Ability:
+"" Looking for a PhD or MS candidate in molecular biology or related field with data science experience including strong understanding of electronic laboratory notebooks (Benchling experience preferred)
+"" Assist in sample submission and management for samples throughout mRNA platform production pipeline
+"" General scientific understanding in the following areas:
+o PCR, cloning, and pDNA preparation
+o Capillary electrophoresis, SDS page, UPLC-MS, UV-ABS
+o Affinity Chromatography
+o Cell Culture and Transfection
+o ELISA and Activity Assays
+o mRNA Formulation (PNP, LNP, etc.)
+"" Ability to summarize complex scientific processes highlighting key process and data collection steps",4.2,"eTeam Inc.
+4.2","Waltham, MA",,5001 to 10000 Employees,1999,Company - Private,Staffing & Subcontracting,Human Resources & Staffing,$100 to $500 million (USD),
+16,Data Scientist,Employer Provided Salary:$100K - $150K,"The Data Scientist designs, prototypes, and develops processes for machine learning models from experimentation to production. They must work with the Data Science Department to understand current business cases, test hypotheses, and continuously improve active processes. This is a technical role that focuses on data wrangling, feature engineering, and predictive modeling.
 
-Member Product DSE is at the forefront of these innovations with a mission to relentlessly improve Netflix member experience within our streaming and new verticals services across TV, Mobile & Web by surfacing insights. The team collaborates extensively with Product and Engineering teams to identify, incubate and enable product innovations leveraging robust measurement techniques (analytics, experimentation, modeling) and scalable tooling.",4.4 ★,"Netflix
-4.2","Los Gatos, CA",,5001 to 10000 Employees,1997,Company - Public,Internet & Web Services,Information Technology,$5 to $10 billion (USD),
-19,Remote - Data Scientist,Employer Provided Salary:$79K - $120K,"We’re looking for talented professionals, anywhere in the United States, to join us in bringing smart money management and payment solutions to everyone’s fingertips.
-At Green Dot, we are evolving to a new and permanent “Work from Anywhere” model designed to maximize the benefits of remote work, promote and enable a strong culture of performance and connectedness, and attract the best and brightest talent who align with our entrepreneurial spirit and mission.
-<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>
-JOB DESCRIPTION
-This is an exciting opportunity to apply data science techniques and drive growth and revenue of Green Dot’s Business, Enterprise-wide. Our data science team works on several projects across the entire company including Churn Modelling and Customer Scoring for Marketing efforts, Revenue Prediction Modeling for Accounting and Finance and Cash Advance Customer Modeling for our Award-Winning Tax Products.
-We are looking for candidates who are passionate about leveraging data science techniques to solve business problems and supplying stakeholders with actionable insights/decisions. The ideal candidate must be a self-starter who is able to deliver high quality work within tight deadlines and potentially propose/develop innovative solutions as well. The candidate will be reporting to the Lead Data Scientist within our Data Analytics department.
-Regular
-The targeted base salary for this position is $78,800 to $120,200 per year. The final compensation will be determined by a number of factors such as qualifications, expertise, and the candidate’s geographical location.",4.4 ★,"Green Dot Corporation
-3.1",Remote,,1001 to 5000 Employees,1999,Company - Public,Financial Transaction Processing,Financial Services,$1 to $5 billion (USD),
+The Data Scientist will collaborate with their team to prepare and develop data, features, and predictive models from ideation to production deployment. Current use case datasets are primarily tabular. Potential use cases include time series forecasting, clustering, binary classification, multiclass classification, multivariate regression, anomaly detection, and recommendation systems. Once approved, the Data Scientist will work with the team to transition experimental models to production models.",4.9,"EPCVIP, Inc
+4.9","Los Angeles, CA",,51 to 200 Employees,2014,Company - Private,Information Technology Support Services,Information Technology,Unknown / Non-Applicable,
+17,Strategic Customers - Data Scientist,,"Oracle’s Strategic Customer Team has the mission to enable OCI's largest and most strategic customers. The Strategic Engineering Customers team is an inclusive and diverse team of high caliber PMs and Engineers focused on the AI/ML Pillar inside of the Strategic Engineering Customer team, distributed globally, who thrive on new challenges. We are seeking an experienced Machine Learning Engineer or Data Scientist with technical expertise in deploying, configuring, and running ML/AI jobs on OCI GPUs, to join our growing team of multidisciplinary experts. As a Senior Principal Data Scientist, you will work closely with the technical and research teams on innovative, strategic projects including advanced applications of ML for the organization. This role is responsible for the technical direction of the team and for communication with both internal and external stakeholder leadership teams, and must demonstrate critical thinking abilities, outstanding communication skills, project management experience and the ability to lead other experienced technical professionals.",3.9,"Oracle
+3.9",United States,,10000+ Employees,1977,Company - Public,Enterprise Software & Network Solutions,Information Technology,$10+ billion (USD),
+18,Data Scientist - Generative AI,$76K - $115K (Glassdoor est.),"** Locations include Spring, Texas (preferred location), and US remote.
+** Typically need at least Master's degree and minimum 0-2 years full-time relevant work experience.
+The Team
+We are a growing centralized team helping HP take advantage of new AI/ML technology, especially around Generative AI and large language models. We engage with business units to advise and prototype solutions, and we develop and run software applications for internal use.
+The Role
+As a Data Scientist with a focus on Generative AI you will work on multiple engagements across HP involving large language models and other new Generative AI capabilities. Beyond our team, you will work with business stakeholders and developers from other business units. Your primary focus and mindset is to help deliver business solutions to our (mostly internal) customers. You are expected to stay up to date on important new Gen AI papers and releases, but note that this is not an AI research role.",4.2,"HP
+4.2","Spring, TX",,10000+ Employees,1939,Company - Public,Computer Hardware Development,Information Technology,Unknown / Non-Applicable,
+19,Associate Data Scientist,Employer Provided Salary:$65K - $131K,"Work Mode:
+Onsite
+Responsibilities:
+About Tencent
+Tencent is a world-leading internet and technology company that develops innovative products and services to improve the quality of life of people around the world. Founded in 1998 with its headquarters in Shenzhen China, our guiding principle is to use technology for good.
+We are not only a major video game publisher in the world, we also produce other high-quality digital content, enriching interactive entertainment experiences for people around the globe. We offer a range of services such as cloud computing, advertising, FinTech, and other enterprise services to support our clients' digital transformation and business growth.
+About IEG
+
+
+
+
+
+
+California
+The base pay range for this position in the state(s) above is $65,450 to $130,900 per year. Actual pay is based on market location and may vary depending on job-related knowledge, skills, and experience. A sign on payment, relocation package, and restricted stock units may be provided as part of the compensation package, as well as other medical, financial, and/or other benefits, dependent on the specific position offered.",4.0,"Tencent
+4.0","Palo Alto, CA",,10000+ Employees,1998,Company - Public,Internet & Web Services,Information Technology,Unknown / Non-Applicable,
