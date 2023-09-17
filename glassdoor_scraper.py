@@ -10,6 +10,7 @@ import numpy as np
 
 
 def get_jobs(keyword, num_jobs, verbose,slp_time):
+    print("GETTING JOB INFO")
     
     '''Gathers jobs as a dataframe, scraped from Glassdoor'''
     
@@ -108,8 +109,9 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
             #clicking on this:
             #<div class="tab" data-tab-type="overview"><span>Company</span></div>
             try:
-                driver.find_element(By.XPATH,'.//div[@class="tab" and @data-tab-type="overview"]').click()
-                print("Overview")
+                #driver.find_element(By.XPATH,'.//div[@class="tab" and @data-tab-type="overview"]').click()
+                driver.find_element(By.XPATH,'.//div[@id ="EmpBasicInfo"]')
+                print("Overview Found")
 
                 try:
                     #<div class="infoEntity">
@@ -121,33 +123,45 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
                     headquarters = np.NAN
 
                 try:
-                    size = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Size"]//following-sibling::*').text
+                    size = driver.find_element(By.XPATH,'.//span[@class="css-i9gxme e1pvx6aw2"]').text
+                    #print("Size: ",size)
                 except NoSuchElementException:
+                    print("SIZE NOT FOUND")
                     size = np.NAN
 
                 try:
-                    founded = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Founded"]//following-sibling::*').text
+                    founded = driver.find_element(By.XPATH,'.//div[@class="d-flex justify-content-start css-rmzuhb e1pvx6aw0"]//span[@class="css-1taruhi e1pvx6aw1" and text()="Founded"]//following-sibling::*').text
+                    #print("FOUNDED BY: ", founded)
                 except NoSuchElementException:
+                    print("Founded Not Found")
                     founded = np.NAN
 
                 try:
-                    type_of_ownership = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Type"]//following-sibling::*').text
+                    type_of_ownership = driver.find_element(By.XPATH,'.//span[@class="css-1taruhi e1pvx6aw1" and text()="Type"]//following-sibling::*').text
+                    #print("OWNERSHIP: ",type_of_ownership)
                 except NoSuchElementException:
+                    print("Ownership not found")
                     type_of_ownership = np.NAN
 
                 try:
-                    industry = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Industry"]//following-sibling::*').text
+                    industry = driver.find_element(By.XPATH,'.//span[@class="css-1taruhi e1pvx6aw1" and text()="Industry"]//following-sibling::*').text
+                    #print("Industry: ",industry)
                 except NoSuchElementException:
+                    print("Industry not found")
                     industry = np.NAN
 
                 try:
-                    sector = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Sector"]//following-sibling::*').text
+                    sector = driver.find_element(By.XPATH,'.//span[@class="css-1taruhi e1pvx6aw1" and text()="Sector"]//following-sibling::*').text
+                    #print("Sector: ",sector)
                 except NoSuchElementException:
+                    print("sector not found")
                     sector = np.NAN
 
                 try:
-                    revenue = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Revenue"]//following-sibling::*').text
+                    revenue = driver.find_element(By.XPATH,'.//span[@class="css-1taruhi e1pvx6aw1" and text()="Revenue"]//following-sibling::*').text
+                    #print("Revenue: ",revenue)
                 except NoSuchElementException:
+                    print("Revenue not found")
                     revenue = np.NAN
 
                 try:
@@ -156,6 +170,7 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
                     competitors = np.NAN
 
             except NoSuchElementException:  #Rarely, some job postings do not have the "Company" tab.
+                print("FAILED TO FIND OVERVIEW")
                 headquarters = np.NAN
                 size = np.NAN
                 founded = np.NAN
