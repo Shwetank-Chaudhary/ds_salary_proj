@@ -7,6 +7,7 @@ import pandas as pd
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 import numpy as np
+from playsound import playsound
 
 
 def get_jobs(keyword, num_jobs, verbose,slp_time):
@@ -47,9 +48,9 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
         time.sleep(.1)
 
         try:
-            #driver.find_element(By.CLASS_NAME,"").click()  #clicking to the X.
+            driver.find_element(By.XPATH,".//button[@class='e1jbctw80 ei0fd8p1 css-1n14mz9 e1q8sty40']").click()  #clicking to the X.
             #https://stackoverflow.com/questions/54939227/how-to-click-the-close-button-within-a-modal-window-through-selenium-and-python
-            WebDriverWait(driver,20).until(EC.element_to_be_clickable((By.XPATH,"//button[@class='e1jbctw80 ei0fd8p1 css-1n14mz9 e1q8sty40']"))).click()
+            #WebDriverWait(driver,20).until(EC.element_to_be_clickable((By.XPATH,"//button[@class='e1jbctw80 ei0fd8p1 css-1n14mz9 e1q8sty40']"))).click()
             print("FOUND X")
         except NoSuchElementException:
             print("FAILED to find X")
@@ -57,19 +58,20 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
 
         
         #Going through each job in this page
-        job_buttons = driver.find_elements(By.XPATH,'//div[@class="job-search-193lseq"]')  #jl for Job Listing. These are the buttons we're going to click.
+        #job_buttons = driver.find_elements(By.XPATH,'//div[@class="job-search-193lseq"]')  #jl for Job Listing. These are the buttons we're going to click.
+        job_buttons = driver.find_elements(By.XPATH,'//li[@class="react-job-listing css-108gl9c eigr9kq3"]')
         print("Jobs FOund: ",len(job_buttons))
         #print(job_buttons)
         for job_button in job_buttons:  
-
+            
             print("Progress: {}".format("" + str(len(jobs)) + "/" + str(num_jobs)))
             if len(jobs) >= num_jobs:
                 break
 
             job_button.click()  #You might 
-            time.sleep(1)
+            time.sleep(2)
             collected_successfully = False
-            
+            flag=0
             while not collected_successfully:
                 try:
                     company_name = driver.find_element(By.XPATH,'.//div[@data-test="employerName"]').text
@@ -79,12 +81,14 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
                     job_title = driver.find_element(By.XPATH,'.//div[@data-test="jobTitle"]').text
                     #print("job title",job_title)
                     job_description = driver.find_element(By.XPATH,'.//div[@class="jobDescriptionContent desc"]').text
-                    #print(job_description)
+                    #print(job_description[:10])
                     collected_successfully = True
                     #print("COLLECTED SUCCUESSFULLY: ",collected_successfully)
                 except:
                     print("Failed to collect")
-                    time.sleep(5)
+                    playsound('05.mp3')
+                    print("please click on next job profile")
+                    time.sleep(2)
 
             try:
                 salary_estimate = driver.find_element(By.XPATH,'.//span[@data-test="detailSalary"]').text
@@ -213,7 +217,8 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
         #Clicking on the "next page" button
         try:
             #driver.find_element(By.XPATH,'.//li[@class="react-job-listing css-108gl9c eigr9kq3"]//a').click()
-            driver.find_element(By.XPATH,'.//div[@class="job-search-193lseq"]').click()
+            driver.find_element(By.XPATH,'.//button[@class="nextButton job-search-opoz2d e13qs2072"]').click()
+            print("NExt Page")
         except NoSuchElementException:
             print("FAiled")
             print("Scraping terminated before reaching target number of jobs. Needed {}, got {}.".format(num_jobs, len(jobs)))
