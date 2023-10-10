@@ -34,18 +34,19 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
 
         #Let the page load. Change this number based on your internet speed.
         #Or, wait until the webpage is loaded, instead of hardcoding it.
-        time.sleep(4)
+        time.sleep(3)
 
         #Test for the "Sign Up" prompt and get rid of it.
         # link: https://www.selenium.dev/documentation/webdriver/elements/finders/
         try:
-            driver.find_element(By.CLASS_NAME,"selected").click()
+            #driver.find_element(By.CLASS_NAME,"selected").click()
+            driver.find_element(By.XPATH,'.//div[@id = "LoginModal"]')
             print("Found SELECTED")
         except ElementClickInterceptedException:
             print("FAILED TO FIND SELECTED")
             pass
 
-        time.sleep(.1)
+        time.sleep(1)
 
         try:
             driver.find_element(By.XPATH,".//button[@class='e1jbctw80 ei0fd8p1 css-1n14mz9 e1q8sty40']").click()  #clicking to the X.
@@ -54,12 +55,11 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
             print("FOUND X")
         except NoSuchElementException:
             print("FAILED to find X")
-            pass
 
         
         #Going through each job in this page
         #job_buttons = driver.find_elements(By.XPATH,'//div[@class="job-search-193lseq"]')  #jl for Job Listing. These are the buttons we're going to click.
-        job_buttons = driver.find_elements(By.XPATH,'//li[@class="react-job-listing css-108gl9c eigr9kq3"]')
+        job_buttons = driver.find_elements(By.XPATH,'//li[@class="JobsList_jobListItem__JBBUV"]')
         print("Jobs FOund: ",len(job_buttons))
         #print(job_buttons)
         for job_button in job_buttons:  
@@ -74,14 +74,15 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
             flag=0
             while not collected_successfully:
                 try:
-                    company_name = driver.find_element(By.XPATH,'.//div[@data-test="employerName"]').text
+                    company_name = driver.find_element(By.XPATH,'.//div[@class="css-8wag7x"]').text
+                    #print(rating)
                     #print("Compant NAme: " , company_name)
                     location = driver.find_element(By.XPATH,'.//div[@data-test="location"]').text
                     #print("Location: ",location)
-                    job_title = driver.find_element(By.XPATH,'.//div[@data-test="jobTitle"]').text
+                    job_title = driver.find_element(By.XPATH,'.//div[@class="JobDetails_jobTitle__Rw_gn"]').text
                     #print("job title",job_title)
-                    job_description = driver.find_element(By.XPATH,'.//div[@class="jobDescriptionContent desc"]').text
-                    #print(job_description[:10])
+                    job_description = driver.find_element(By.XPATH,'.//div[@class="JobDetails_jobDescription__6VeBn JobDetails_blurDescription__fRQYh"]//following-sibling::*').text
+                    #print(job_description[:50])
                     collected_successfully = True
                     #print("COLLECTED SUCCUESSFULLY: ",collected_successfully)
                 except:
@@ -91,12 +92,14 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
                     time.sleep(2)
 
             try:
-                salary_estimate = driver.find_element(By.XPATH,'.//span[@data-test="detailSalary"]').text
+                salary_estimate = driver.find_element(By.XPATH,'.//div[@class="SalaryEstimate_averageEstimate__xF_7h"]').text
+                print(salary_estimate)
             except NoSuchElementException:
                 salary_estimate = np.NAN #You need to set a "not found value. It's important."
             
             try:
-                rating = driver.find_element(By.XPATH,'.//span[@data-test="detailRating"]').text
+                rating = driver.find_element(By.XPATH,'.//div[@class="css-8wag7x"]//span[@class = "ml-xsm"]//following-sibling::*').text
+                print(rating)
             except NoSuchElementException:
                 rating = np.NAN #You need to set a "not found value. It's important."
 
@@ -104,7 +107,7 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
             if verbose:
                 print("Job Title: {}".format(job_title))
                 print("Salary Estimate: {}".format(salary_estimate))
-                print("Job Description: {}".format(job_description[:500]))
+                print("Job Description: {}".format(job_description[:2]))
                 print("Rating: {}".format(rating))
                 print("Company Name: {}".format(company_name))
                 print("Location: {}".format(location))
@@ -114,86 +117,86 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
             #<div class="tab" data-tab-type="overview"><span>Company</span></div>
             try:
                 #driver.find_element(By.XPATH,'.//div[@class="tab" and @data-tab-type="overview"]').click()
-                driver.find_element(By.XPATH,'.//div[@id ="EmpBasicInfo"]')
+                driver.find_element(By.XPATH,'.//div[@class ="JobDetails_companyOverviewGrid__CV62w"]')
                 print("Overview Found")
 
-                try:
+                """try:
                     #<div class="infoEntity">
                     #    <label>Headquarters</label>
                     #    <span class="value">San Francisco, CA</span>
                     #</div>
-                    headquarters = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Headquarters"]//following-sibling::*').text
+                    headquarters = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Headquarters"]//next-sibling::*').text
                 except NoSuchElementException:
-                    headquarters = np.NAN
+                    headquarters = np.NAN"""
 
                 try:
-                    size = driver.find_element(By.XPATH,'.//span[@class="css-i9gxme e1pvx6aw2"]').text
+                    size = driver.find_element(By.XPATH,'.//span[@class="JobDetails_overviewItemLabel__5vi0o" and text() = "Size"]//following-sibling::*').text
                     #print("Size: ",size)
                 except NoSuchElementException:
                     print("SIZE NOT FOUND")
                     size = np.NAN
 
                 try:
-                    founded = driver.find_element(By.XPATH,'.//div[@class="d-flex justify-content-start css-rmzuhb e1pvx6aw0"]//span[@class="css-1taruhi e1pvx6aw1" and text()="Founded"]//following-sibling::*').text
+                    founded = driver.find_element(By.XPATH,'.//span[@class="JobDetails_overviewItemLabel__5vi0o" and text()="Founded"]//following-sibling::*').text
                     #print("FOUNDED BY: ", founded)
                 except NoSuchElementException:
                     print("Founded Not Found")
                     founded = np.NAN
 
                 try:
-                    type_of_ownership = driver.find_element(By.XPATH,'.//span[@class="css-1taruhi e1pvx6aw1" and text()="Type"]//following-sibling::*').text
+                    type_of_ownership = driver.find_element(By.XPATH,'.//span[@class="JobDetails_overviewItemLabel__5vi0o" and text()="Type"]//following-sibling::*').text
                     #print("OWNERSHIP: ",type_of_ownership)
                 except NoSuchElementException:
                     print("Ownership not found")
                     type_of_ownership = np.NAN
 
                 try:
-                    industry = driver.find_element(By.XPATH,'.//span[@class="css-1taruhi e1pvx6aw1" and text()="Industry"]//following-sibling::*').text
+                    industry = driver.find_element(By.XPATH,'.//span[@class="JobDetails_overviewItemLabel__5vi0o" and text() = "Industry" ]//following-sibling::*').text
                     #print("Industry: ",industry)
                 except NoSuchElementException:
                     print("Industry not found")
                     industry = np.NAN
 
                 try:
-                    sector = driver.find_element(By.XPATH,'.//span[@class="css-1taruhi e1pvx6aw1" and text()="Sector"]//following-sibling::*').text
+                    sector = driver.find_element(By.XPATH,'.//span[@class="JobDetails_overviewItemLabel__5vi0o" and text() = "Sector"]//following-sibling::*').text
                     #print("Sector: ",sector)
                 except NoSuchElementException:
                     print("sector not found")
                     sector = np.NAN
 
                 try:
-                    revenue = driver.find_element(By.XPATH,'.//span[@class="css-1taruhi e1pvx6aw1" and text()="Revenue"]//following-sibling::*').text
+                    revenue = driver.find_element(By.XPATH,'.//span[@class="JobDetails_overviewItemLabel__5vi0o" and text() = "Revenue"]//following-sibling::div').text
                     #print("Revenue: ",revenue)
                 except NoSuchElementException:
                     print("Revenue not found")
                     revenue = np.NAN
 
-                try:
+                '''try:
                     competitors = driver.find_element(By.XPATH,'.//div[@class="infoEntity"]//label[text()="Competitors"]//following-sibling::*').text
                 except NoSuchElementException:
-                    competitors = np.NAN
+                    competitors = np.NAN'''
 
             except NoSuchElementException:  #Rarely, some job postings do not have the "Company" tab.
                 print("FAILED TO FIND OVERVIEW")
-                headquarters = np.NAN
+                #headquarters = np.NAN
                 size = np.NAN
                 founded = np.NAN
                 type_of_ownership = np.NAN
                 industry = np.NAN
                 sector = np.NAN
                 revenue = np.NAN
-                competitors = np.NAN
+                #competitors = np.NAN
 
                 
             if verbose:
-                print("Headquarters: {}".format(headquarters))
+                #print("Headquarters: {}".format(headquarters))
                 print("Size: {}".format(size))
                 print("Founded: {}".format(founded))
                 print("Type of Ownership: {}".format(type_of_ownership))
                 print("Industry: {}".format(industry))
                 print("Sector: {}".format(sector))
                 print("Revenue: {}".format(revenue))
-                print("Competitors: {}".format(competitors))
+                #print("Competitors: {}".format(competitors))
                 print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
 
             jobs.append({"Job Title" : job_title,
@@ -202,26 +205,33 @@ def get_jobs(keyword, num_jobs, verbose,slp_time):
             "Rating" : rating,
             "Company Name" : company_name,
             "Location" : location,
-            "Headquarters" : headquarters,
+            #"Headquarters" : headquarters,
             "Size" : size,
             "Founded" : founded,
             "Type of ownership" : type_of_ownership,
             "Industry" : industry,
             "Sector" : sector,
             "Revenue" : revenue,
-            "Competitors" : competitors
+            #"Competitors" : competitors
             })
             
             #add job to jobs
 
-        #Clicking on the "next page" button
+        #Clicking on the "Show More" button
         try:
+            driver.find_element(By.XPATH,'.//button[@class=""]').click()
+        except NoSuchElementException:
+            print("FAiled to push show more")
+            print("Scraping terminated before reaching target number of jobs. Needed {}, got {}.".format(num_jobs, len(jobs)))
+            break
+        #Clicking on the "next page" button
+        """try:
             #driver.find_element(By.XPATH,'.//li[@class="react-job-listing css-108gl9c eigr9kq3"]//a').click()
             driver.find_element(By.XPATH,'.//button[@class="nextButton job-search-opoz2d e13qs2072"]').click()
             print("NExt Page")
         except NoSuchElementException:
             print("FAiled")
             print("Scraping terminated before reaching target number of jobs. Needed {}, got {}.".format(num_jobs, len(jobs)))
-            break
+            break"""
 
     return pd.DataFrame(jobs)  #This line converts the dictionary object into a pandas DataFrame.
